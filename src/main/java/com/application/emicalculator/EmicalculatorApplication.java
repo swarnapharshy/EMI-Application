@@ -1,13 +1,13 @@
-package com.apiconsumer.emiconsumer;
+package com.application.emicalculator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EmiconsumerApplication {
+public class EmicalculatorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EmiconsumerApplication.class, args);
+		SpringApplication.run(EmicalculatorApplication.class, args);
 	}
 
 }

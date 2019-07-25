@@ -1,4 +1,4 @@
-package com.apiconsumer.emiconsumer.entities;
+package com.application.emicalculator.entities;
 
 public class EmiEntity {
     private double principal;
@@ -15,8 +15,6 @@ public class EmiEntity {
         this.time = time;
         this.EMI = EMI;
     }
-
-
 
     public EmiEntity(double EMI) {
         this.EMI = EMI;
